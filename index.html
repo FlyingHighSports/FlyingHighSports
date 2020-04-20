@@ -1,49 +1,54 @@
-<style>
+ <style>
         body {
             background-color:rgb(245, 245, 245);
             font-family:"Times New Roman", Times, serif;
             width: 100%;
         }
+        
         #title {
             color:rgb(7, 59, 92);
             font-size:100px;
-            margin-top: 80px;
-            position:fixed;
+            margin-top: 350px;
+            position: absolute;
             left: 35%;
-	
+	          opacity: 0.8;
             z-index:2;
         }
         #image1 {
-            position:fixed;
-            width:100%;
-            height: 30%;
+            position:absolute;
+            width: 100%;
+            height: 80%;
             z-index:1;
-	          top: 0px;
+	          top: 100px;
 	          left: 0px;
+	          opacity: 0.6;
         }
         
         #contents {
           position: fixed;
-          top: 290px;
+          top: 0px;
           left: 0px;
           width: 100%;
           background-color: rgb(7, 59, 92);
-          z-index:1;
+          z-index:3;
         }
         a {
           color: white;
+          text-decoration: none;
         }
         
         a:hover {
-          color:black;
+          color:white;
+          text-decoration: none;
         }
         
         a:visited {
-          color: grey;
+          color: white;
+          text-decoration:none;
         }
         nav ul {
           margin: 0px;
-          padding: 10px 0px 15px 250px;
+          padding: 15px 0px 15px 250px;
           color: white;
         }
         nav li {
@@ -56,7 +61,7 @@
           background-color:rgba(211, 228, 240);
           width: 100%;
           position: relative;
-            top: 310px;
+            top: 800px;
             right: 80px;
           padding-right: 100px;
         }
@@ -65,7 +70,7 @@
           background-color:rgba(211, 228, 240);
           width: 100%;
           position: relative;
-            top: 310px;
+            top: 800px;
             right: 80px;
             padding-right: 100px;
           padding-top: 10px;
@@ -75,7 +80,7 @@
           background-color:rgba(211, 228, 240);
           width: 100%;
           position: relative;
-            top: 310px;
+            top: 800px;
             right: 80px;
             padding-right: 100px;
           padding-top: 10px;
@@ -151,7 +156,7 @@
             color:rgb(222, 222, 222);
             text-align:center;
             position: relative;
-            top: 340px;
+            top: 800px;
             padding: 100px;
             line-height: 5em;
         }
@@ -161,23 +166,21 @@
           width: 100%;
           left: 70px;
           top: 20px;
-          background-color: rgb(54, 72, 107);
+          background-color: rgb(189, 207, 219);
         }
         
        .ulist {
          margin: 0px;
           padding: 0px 10px 15px 50px;
-          color: white;
-          background-color: rgb(54, 72, 107);
+          background-color: rgb(189, 207, 219);
           opacity: 0.5;
         }
         
        .list {
           display: inline;
           margin-right: 80px;
-          color: white;
           font-size: 22px;
-          background-color: rgb(54, 72, 107);
+          background-color: rgb(189, 207, 219);
           opacity: none;
         }
         
@@ -219,8 +222,9 @@
           padding-top: 50px;
         }
     </style>
+    <div class="page">
     <h1 id="title"> Flying High</h1>
-    <img id="image1" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png" alt="Cloud Sky" width= "90%" height= "150px">
+    <img id="image1" src="https://images3.alphacoders.com/102/1022105.jpg" alt= "Cloud Sky">
       <nav id="contents">
       <ul>
         <li><a href="">About Us</a></li>
@@ -273,13 +277,13 @@
         Activities
         <nav id="activities">
       <ul class="ulist">
-        <li class="list"><a href="">Paragliding</a></li>
-        <li class="list"><a href="">Paratrike</a></li>
-        <li class="list"><a href="">Skydive</a></li>
-        <li class="list"><a href="">Soft Coasteering</a></li>
-        <li class="list"><a href="">Hang Gliding</a></li>
-        <li class="list"><a href="">Balloonist</a></li>
-        <li class="list"><a href="">Glider</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Paragliding</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Paratrike</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Skydive</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Soft Coasteering</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Hang Gliding</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Balloonist</a></li>
+        <li class="list"><a href="" style="color:rgb(82, 82, 82);">Glider</a></li>
       </ul>
     </nav>
         <p id="text-paragliding">
@@ -362,8 +366,8 @@
           <b style="font-size: 18px; color:rgb(7, 59, 92);">PRICE:</b>
            </p>
            
-             <p id="text-paratrike">
-         <img id="paratrike" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBjlyXmrCwsRi56UUYtqkPQb1xSymkKwhne8JZkThe8EYLBObv&usqp=CAU" alt="Logotipo" width= "400px">
+          <p id="text-paratrike">
+            <img id="paratrike" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBjlyXmrCwsRi56UUYtqkPQb1xSymkKwhne8JZkThe8EYLBObv&usqp=CAU" alt= "Logotipo" width= "400px">
           <br>
           <b style="font-size:24px; color:rgb(7, 59, 92);">BALLOONISM</b>
           <br>
@@ -410,4 +414,6 @@
       </ul>
       </nav>
     </h4>
+    </div>
+    </body>
 </html>
